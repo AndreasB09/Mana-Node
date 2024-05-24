@@ -1,0 +1,39 @@
+.bubble {
+    height: 5rem;
+    width: 5rem;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.bubblewrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+}
+
+#bubble1 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+#bubble2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#bubble3 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
